@@ -14,12 +14,12 @@ No other tool combines both. Scripts alone can't judge prompt quality. LLM-only 
 ## Install
 
 ```bash
-clawhub install openclaw-doctor
+clawhub install openclaw-deep-doctor
 ```
 
 Or via OpenClaw:
 ```bash
-openclaw skills install openclaw-doctor
+openclaw skills install openclaw-deep-doctor
 ```
 
 Requirements: `python3`. No API keys. No network access. Everything is local.
