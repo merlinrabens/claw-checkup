@@ -1,5 +1,5 @@
 {
-  "name": "openclaw-deep-doctor",
+  "name": "openclaw-security-doctor",
   "version": "2.0.0",
   "description": "Two-phase audit: fast deterministic scan + LLM deep quality review for security, cron, config, and skills",
   "author": "merlinrabens",
