@@ -1,11 +1,11 @@
 ---
-name: openclaw-doctor
+name: claw-checkup
 description: Two-phase audit: fast deterministic scan + LLM deep quality review for security, cron, config, and skills
 metadata: {"openclaw":{"emoji":"🩺","requires":{"bins":["python3"]}}}
 user-invocable: true
 ---
 
-# OpenClaw Doctor
+# Claw Checkup
 
 Two-phase audit: a fast deterministic scan catches structural issues, then you (the agent) do a deep quality evaluation on the flagged areas.
 
@@ -136,7 +136,7 @@ Phase 1 now scans workspace files for common secret patterns (sk-, ghp_, AIzaSy,
 Present as a readable report to the user:
 
 ```
-## OpenClaw Doctor Report
+## Claw Checkup Report
 
 ### Structural Baseline (Phase 1)
 Overall: 82/100 (healthy)

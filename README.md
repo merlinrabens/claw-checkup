@@ -14,12 +14,12 @@ No other tool combines both. Scripts alone can't judge prompt quality. LLM-only 
 ## Install
 
 ```bash
-clawhub install openclaw-security-doctor
+clawhub install claw-checkup
 ```
 
 Or via OpenClaw:
 ```bash
-openclaw skills install openclaw-security-doctor
+openclaw skills install claw-checkup
 ```
 
 Requirements: `python3`. No API keys. No network access. Everything is local.
@@ -74,7 +74,7 @@ Scoring dimensions for skills (Phase 2):
 ## Example Report
 
 ```
-## OpenClaw Doctor Report
+## Claw Checkup Report
 
 ### Structural Baseline (Phase 1)
 Overall: 82/100 (healthy)
