@@ -1,4 +1,4 @@
-# 🩺 openclaw-doctor
+# 🩺 ClawCheck
 
 Two-phase installation audit for OpenClaw: a fast deterministic scan, then an LLM-powered deep quality review. Catches what `openclaw doctor` doesn't.
 
@@ -32,7 +32,7 @@ python3 scripts/audit.py
 ```
 
 ### Full audit (Phase 1 + Phase 2)
-Ask your agent: "Run openclaw-doctor, full audit"
+Ask your agent: "Run clawcheck, full audit"
 
 ### Individual modules
 ```bash
@@ -103,7 +103,7 @@ Skills (bottom 3):
 
 ## How It Differs
 
-| | openclaw-doctor | `openclaw doctor` |
+| | ClawCheck | `openclaw doctor` |
 |---|---|---|
 | Secrets audit | Yes (inline, tokens, .env) | No |
 | Cron health | Yes (errors, staleness, conflicts) | No |
